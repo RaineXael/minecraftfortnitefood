@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "fortnitefood",
 	"version": "${version}",
-	"name": "fortnitefood",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Fortnite Food",
+	"description": "Eat the food from Fortnite inside Minecraft.",
 	"authors": [
-		"Me!"
+		"RaineXael"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.rainexael.xyz/",
+		"sources": "https://github.com/RaineXael/minecraftfortnitefood"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/fortnitefood/icon.png",
