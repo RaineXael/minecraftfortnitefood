@@ -31,6 +31,17 @@ public class ModItems {
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.JUMP_BOOST, 25 * 20, 2), 1.0f))
             .build();
 
+    public static final Consumable MED_HEAL_CONSUMABLE_COMPONENT = Consumables.defaultFood()
+            // The duration is in ticks, 20 ticks = 1 second
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION,  20, 4), 1.0f))
+
+            .build();
+    public static final Consumable SMALL_HEAL_CONSUMABLE_COMPONENT = Consumables.defaultFood()
+            // The duration is in ticks, 20 ticks = 1 second
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION,  20, 3), 1.0f))
+
+            .build();
+
 
     public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Properties());
     public static final Item FLOPPER = register("flopper", Item::new, new Item.Properties().food(new FoodProperties.Builder().nutrition(6).build()));
